@@ -15,8 +15,5 @@ function mostrar()
 		alert(numero + " Excelente");
 	}
 
-	else
-	{
-		alert(numero + " Aprobó");
-	}
+	
 }//FIN DE LA FUNCIÓN
