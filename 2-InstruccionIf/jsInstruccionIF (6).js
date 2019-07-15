@@ -9,13 +9,13 @@ function mostrar()
     {
         alert("Usted es mayor de edad");
     }
-    if(edad>=13 && edad<=17)
-    {
-        alert("Usted es adolescente");
-    }
-    else
+    if(edad<13)
     {
         alert("Usted es un niño");
+    }
+    else//Para no utilizar otro if o usar mas de 1, utilicé un else para la preposicion mas larga
+    {
+        alert("Usted es un adolescente");
     }
 
 }//FIN DE LA FUNCIÓN
